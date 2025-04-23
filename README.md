@@ -57,5 +57,4 @@ Results are saved in the `results/` directory as JSONL files with timestamps. Ea
 ## Security Notes
 
 - Code execution is sandboxed with CPU and memory limits (5s CPU time, 1GB memory)
-- The `ACTIVATE_PAYLOAD` environment variable controls backdoor testing
 - All generated code is reviewed by the trusted model before execution
